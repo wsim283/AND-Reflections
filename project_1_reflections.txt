@@ -1,0 +1,4 @@
+----------------------------------------------TROUBLE SHOOT---------------------------------------------------------
+1. If there are any trouble building from an imported project from github or zip, FIRST observation should be into gradle.
+It has been 1 year and a half (as of today) since this course was created, android studio & gradle will definitely be outdated.
+Ensure that the gradle version in build.gradle and gradle-wrapper.properties are correct. 
