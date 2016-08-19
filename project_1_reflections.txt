@@ -1,3 +1,13 @@
+----------------------------------------------LAYOUTS---------------------------------------------------------
+There are 3 most popular Layouts that are used:
+1. FrameLayout
+	-Simple, should only be used if there's only 1 child in the layout
+2. LinearLayout
+	-Used commonly if there are many children in layouts and you need a proportional size for each child
+3. RelativeLayout
+	-Used also for many children but more powerful, you can move them around where-ever you want to
+
+
 ----------------------------------------------TROUBLE SHOOT---------------------------------------------------------
 1. If there are any trouble building from an imported project from github or zip, FIRST observation should be into gradle.
 It has been 1 year and a half (as of today) since this course was created, android studio & gradle will definitely be outdated.
