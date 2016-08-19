@@ -1,8 +1,14 @@
+----------------------------------------------SDK- TARGET AND MINIMUM---------------------------------------------------------
+When you create a new project, you need to define a minimum SDK, or Software Development Kit. The SDK is a set of tools that you download that allows you to compile and create Android Projects. SDKs match API levels, when a new API level is released, a new SDK is released to make projects for that level. A current SDK is automatically downloaded when you install Android Studio.
+
+The minimum SDK is the minimum Android API level that the application is meant to support. In our case we are supporting API level 10, which includes all devices running Gingerbread and beyond. This will support 99% of devices on the market.
+
+The target SDK, which is automatically defined for you, signifies the SDK that you use to compile and test with. It should be the most current SDK.
 ----------------------------------------------LISTVIEW---------------------------------------------------------
 Listview is very efficient in how it creates, recycles and displays views and is optimized to scroll very smoothly.
 Suppose we have 20 items in the listview and could only show 10 on the screen at any given point in time, the listview creates 12
 in total, 10 on screen and 2 off-screen (one top and one bottom). Once we scroll down or up, the view that is out of range of these 12,
-will then be recycled and made only when we need to show it.
+will then be recycled and made only when we need to show it. All children of AdapterView has this recycling feature (like GridView)
 ----------------------------------------------LAYOUTS---------------------------------------------------------
 There are 3 most popular Layouts that are used:
 1. FrameLayout
