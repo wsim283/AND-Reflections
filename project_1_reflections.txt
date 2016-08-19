@@ -1,3 +1,8 @@
+----------------------------------------------LISTVIEW---------------------------------------------------------
+Listview is very efficient in how it creates, recycles and displays views and is optimized to scroll very smoothly.
+Suppose we have 20 items in the listview and could only show 10 on the screen at any given point in time, the listview creates 12
+in total, 10 on screen and 2 off-screen (one top and one bottom). Once we scroll down or up, the view that is out of range of these 12,
+will then be recycled and made only when we need to show it.
 ----------------------------------------------LAYOUTS---------------------------------------------------------
 There are 3 most popular Layouts that are used:
 1. FrameLayout
